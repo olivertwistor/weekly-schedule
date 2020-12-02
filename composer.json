@@ -1,0 +1,38 @@
+{
+  "name": "olivertwistor/weekly-schedule",
+  "description": "Create simple weekly schedules and print them out.",
+  "version": "0.1.0",
+  "type": "project",
+  "keywords": ["weekly-schedule", "schedule", "planning"],
+  "homepage": "https://github.com/olivertwistor/weekly-schedule",
+  "readme": "LICENSE",
+  "time": "2020-12-02",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Johan Nilsson",
+      "email": "oliver_twistor@hotmail.com",
+      "homepage": "http://www.olivertwistor.nu",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "oliver_twistor@hotmail.com",
+    "issues": "https://github.com/olivertwistor/weekly-schedule/issues",
+    "source": "https://github.com/olivertwistor/weekly-schedule",
+    "docs": "https://github.com/olivertwistor/weekly-schedule"
+  },
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Olivertwistor\\WeeklySchedule\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Olivertwistor\\WeeklySchedule\\Tests\\": "tests/"
+    }
+  }
+}
